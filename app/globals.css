@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-offWhite text-charcoal font-sans antialiased leading-relaxed;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif tracking-wide;
+    color: #2d2020;
+  }
+
+  h1 { @apply tracking-normal; }
+  h2 { @apply tracking-wide; }
+  h3 { @apply tracking-wide; }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/60 backdrop-blur-md border border-pink-100/60 shadow-sm;
+  }
+
+  .btn-primary {
+    @apply bg-roseGold hover:bg-roseGold-dark text-white px-8 py-3 rounded-full font-medium tracking-wide shadow-md hover:shadow-lg transition-all hover:-translate-y-0.5;
+  }
+
+  .btn-outline {
+    @apply border-2 border-roseGold text-roseGold hover:bg-roseGold hover:text-white px-8 py-3 rounded-full font-medium tracking-wide transition-all;
+  }
+}
