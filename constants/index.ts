@@ -16,9 +16,13 @@ export const SOCIAL_LINKS = {
 };
 
 export const SERVICES_LIST = [
-  "Baby Hand Casting",
+  "Hand Casting",
   "Varmala Preservation",
-  "Resin Jewelry",
-  "Paintings / Sketches",
+  "Oil Painting",
+  "Pencil Sketch",
+  "Acrylic Painting",
+  "Art Stalls",
+  "Corporate Bulk Gifting",
+  "Wedding Gifting",
   "Other / Custom Inquiry",
 ];

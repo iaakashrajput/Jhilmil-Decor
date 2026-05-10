@@ -16,9 +16,9 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 glass w-full py-4 px-6 md:px-12 border-b border-pastelPink-100">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
-        <Link href="/" className="flex items-center" onClick={() => setMenuOpen(false)}>
+        <Link href="/" className="flex items-center shrink-0" onClick={() => setMenuOpen(false)}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/logo.png" alt="Jhilmil Decor Logo" className="h-20 w-auto object-contain mix-blend-multiply" />
+          <img src="/logo.png" alt="Jhilmil Decor Logo" className="h-12 md:h-20 w-auto max-w-[60vw] md:max-w-none object-contain mix-blend-multiply" />
         </Link>
 
         {/* Desktop Nav */}

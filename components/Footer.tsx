@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         <div>
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/logo.png" alt="Jhilmil Decor Logo" className="h-20 w-auto object-contain mix-blend-multiply" />
+          <img src="/logo.png" alt="Jhilmil Decor Logo" className="h-14 md:h-20 w-auto max-w-full object-contain mix-blend-multiply" />
           <p className="text-sm opacity-80 max-w-sm">
             Preserving life's beautiful moments in resin. Bespoke, artfully crafted keepsakes for every milestone.
           </p>
